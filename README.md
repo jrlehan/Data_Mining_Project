@@ -65,7 +65,7 @@ The accompanying notebook contains:
 
 To use this project:
 
-1. Clone the repository and upload the dataset (`.csv`) to the same directory.  
+1. Clone the repository and upload the dataset (`.csv`) to the same directory. A link to the dataset can be found in the notebook.
 2. Open the notebook in Google Colab or Jupyter.  
 3. Run all cells sequentially to reproduce the exploratory data analysis and visualizations.  
 
