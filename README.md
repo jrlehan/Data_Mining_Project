@@ -150,10 +150,12 @@ The accompanying notebook includes:
 
 ## Usage
 
+To use this project:
+
 1. Clone the repository.
-2. Upload the dataset (.csv) to the working directory.
+2. Upload the dataset (.csv) to the same directory. A link to the dataset can be found in the notebook.
 3. Open the notebook in Google Colab or Jupyter.
-4. Run all cells sequentially to reproduce results.
+4. Run all cells sequentially to reproduce the EDA and RQ explorations.
 
 ---
 
