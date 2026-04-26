@@ -1,0 +1,30 @@
+# Local-install requirements for this project.
+#
+# The project was developed in Google Colab and the full Colab
+# environment is captured in requirements.txt.
+# That file contains ~500 packages, including Colab-only entries that
+# can't install on a regular machine (google-colab, jupyter_kernel_gateway
+# pulled from a Colab fork, CPU-only torch wheels from pytorch.org, etc.).
+#
+# This file lists ONLY the packages this project actually imports,
+# pinned to the same versions that were used in the Colab session
+# the analysis was developed in. Use this for local runs:
+#
+#     pip install -r requirements-local.txt
+
+# Core data + modeling
+pandas==2.2.2
+numpy==2.0.2
+scikit-learn==1.6.1
+xgboost==3.2.0
+matplotlib==3.10.0
+
+# Utilities used by the preprocessing script
+tqdm==4.67.3
+pyarrow==18.1.0
+kagglehub==1.0.0
+
+# To launch and run the notebook locally
+notebook==6.5.7
+ipykernel==6.17.1
+ipywidgets==7.7.1
