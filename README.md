@@ -50,20 +50,20 @@ Place the raw PokerBench CSV at data/raw/postflop_500k_train_set_game_scenario_i
 Download at: https://huggingface.co/datasets/RZ412/PokerBench.
 
 Run preprocessing once:
-bash   python -m scripts.build_features data/raw/postflop_500k_train_set_game_scenario_information.csv.
+- bash   python -m scripts.build_features data/raw/postflop_500k_train_set_game_scenario_information.csv.
 
 Launch Jupyter from the project root and open the notebook:
-bash   jupyter notebook
-Click main_notebook.ipynb in the file listing, then Cell → Run All.
+- bash   jupyter notebook
+- Click main_notebook.ipynb in the file listing, then Cell → Run All.
 
 Optional: validation and unit tests
 After preprocessing has produced the parquet files, you can verify the pipeline:
 
 Module-level unit tests (data-independent, run in seconds):
 
-bash  python -m src.hand_evaluator     # 19 tests + theoretical 7,462-class check
-  python -m src.max_strength       # 12 tests on hand-crafted scenarios
-  python -m src.nut_strength       # 5 tests on hand-crafted scenarios
+- bash  python -m src.hand_evaluator     # 19 tests + theoretical 7,462-class check
+- python -m src.max_strength       # 12 tests on hand-crafted scenarios
+- python -m src.nut_strength       # 5 tests on hand-crafted scenarios
 
 Data-dependent invariants on the full 500k rows: open and run notebooks/validation.ipynb.
 
