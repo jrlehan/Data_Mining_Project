@@ -41,7 +41,7 @@ Set up a virtual environment and install dependencies:
 
 bash   python3.12 -m venv .venv
    source .venv/bin/activate              # macOS / Linux
-   # .venv\Scripts\activate               # Windows PowerShell
+   .venv\Scripts\activate                 # Windows PowerShell
    pip install -r requirements-local.txt
    pip install jupyter                    # not in requirements-local.txt; Colab provides this for free
 
