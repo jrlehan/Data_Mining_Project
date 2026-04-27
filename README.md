@@ -86,6 +86,7 @@ scripts/build_features.py overwrites the parquet files each run, so it's safe to
 ```
 ./
 ├── assets/
+│   ├── poker_board_example.webp
 │   ├── poker_hand_strength.webp
 ├── checkpoints/
 │   ├── Project_Checkpoint_1.ipynb
