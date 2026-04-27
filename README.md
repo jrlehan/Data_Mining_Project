@@ -4,6 +4,7 @@
 This project analyzes a large-scale poker decision dataset to understand patterns in optimal (GTO-based) post-flop strategy. The primary goal is to examine how game-state variables influence the hero’s optimal action and to evaluate whether these relationships can be modeled using data mining techniques. Furthermore, this project aims to explore the tradeoff between explainable models and high-performing models. If successful, the results of this project could be transformed into a curriculum to develop a poker player, increasing their ability to win money at a growing game.
 
 The main deliverable for this project is main_notebook.ipynb. A project pitch can be accessed at: https://youtu.be/q106wLPUXNA
+
 ---
 
 ## Research Questions
