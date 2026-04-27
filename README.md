@@ -41,10 +41,10 @@ The pipeline has three phases: install dependencies, run preprocessing once, the
 Set up a virtual environment and install dependencies:
 
 - bash   python3.12 -m venv .venv
-   - source .venv/bin/activate              # macOS / Linux
-   - .venv\Scripts\activate                 # Windows PowerShell
-   - pip install -r requirements-local.txt
-   - pip install jupyter                    # not in requirements-local.txt; Colab provides this for free
+- source .venv/bin/activate              # macOS / Linux
+- .venv\Scripts\activate                 # Windows PowerShell
+- pip install -r requirements-local.txt
+- pip install jupyter                    # not in requirements-local.txt; Colab provides this for free
 
 Place the raw PokerBench CSV at data/raw/postflop_500k_train_set_game_scenario_information.csv.
 Download at: https://huggingface.co/datasets/RZ412/PokerBench.
